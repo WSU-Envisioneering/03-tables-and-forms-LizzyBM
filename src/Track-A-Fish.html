@@ -10,33 +10,47 @@
   <a href="Track-A-Fish.html">Track-A-Fish</a>
 </head>
 <body>
-     <h1>Phising For Information</h1>
+     <h1>Track-A-Fish</h1>
     <form action="get">
 <label for="txtName">Name:</label><br>
 <input type="text" name="txtName" placeholder="Enter Your Name" required><br>
 
+<label for="txtName">Last Name:</label><br>
+<input type="text" name="txtName" placeholder="Enter Your Last Name" required><br>
+
 <label for="txtemail">Email</label><br>
 <input type="email" name="txtemail"placeholder="name@email.com" required><br>
 
+
+<label for="Phone-number">Phone-number</label><br>
+<input type="Number" placeholder="(***)*******"required><br><br>
+<label for="Fish">Fish Options</label>
+<br>
+<input type="checkbox" id="Sunfish" name="Sunfish" value="Sunfish">
+  <label for="Sunfish">Sunfish</label><br>
+  <input type="checkbox" id="Lionfish" name="Lionfish" value="Lionfish">
+  <label for="Lionfish">Lionfish</label><br>
+  <input type="checkbox" id="Mudskippers" name="Mudskippers" value="Mudskippers">
+  <label for="Mudskippers">Mudskippers</label><br>
+  <input type="checkbox" id="Frogfish" name="Frogfish" value="Frogfish">
+  <label for="Frogfish">Frogfish</label><br>
+  <input type="checkbox" id="Humuhumunukunukuapua'a" name="Humuhumunukunukuapua'a" value="Humuhumunukunukuapua'a">
+  <label for="Humuhumunukunukuapua'a">Humuhumunukunukuapua'a</label><br>
+  <input type="checkbox" id="Coelacanth" name="Coelacanth" value="Coelacanth">
+  <label for="Coelacanth">Coelacanth</label><br>
+  <br>
 <label for="txtCredit">Credit Card Number</label><br>
 <input type="Number" placeholder="**********"required><br>
 <select name="txtCardType" id="txtCardType">
     <option value="Visa">Visa</option>
-    <option value="Mastercard">Mastercard</option>
-    <option value="American Express">American Express</option>
-</select><br>
-
-
-<label for="Social security number">Social security number</label><br>
-<input type="Number" placeholder="**********"required><br>
-
-<label for="TxtGender">Gender:</label>
-<br>
-<input type="radio" name="TxtGender"checked>Male<br>
-<input type="radio" name="TxtGender"checked>Female<br>
-<input type="radio" name="TxtGender"checked>Other<br>
-
-<br><input type="submit"><br>
+    <option value="Google Pay">Google Pay</option>
+    <option value="PayPal">PayPal</option>
+    <option value="Apple Pay">Apple Pay</option>
+</select><br><br>
+<label for="Comments and Questions">Comments and Questions:</label><br>
+<textarea name="message" rows="10" cols="30" placeholder="Feel free to ask us anything!!">
+</textarea>
+<br><input type="submit">
 <input type="reset"><br>
     </form><hr>
 </body>
