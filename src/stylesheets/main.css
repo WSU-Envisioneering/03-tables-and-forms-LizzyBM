@@ -50,7 +50,7 @@ a{
 }
 tr:hover {background-color: rgb(141, 116, 106);}
 a:hover{
-    background-color:rgb(141, 116, 106) ;
+   color:rgb(229, 184, 166) ;
 }
 .img1{
     border-width: 1em;
