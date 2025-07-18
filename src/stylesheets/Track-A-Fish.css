@@ -1,0 +1,54 @@
+html{
+    text-align: center;
+    background-image: url(/src/images/Untitled-1024-×-683px-14.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+.fishes{
+    text-align: left;
+margin-left: 10%;
+width: 270px;
+background-color: rgba(240, 248, 255, 0);
+border: none;
+}
+div{
+ width: 300px;         
+  margin: 0 auto;        
+  background-color: rgba(231, 203, 147, 0.56); 
+  border-style: double;
+  border-color: rgb(204, 125, 34);
+  border-width: 1rem;
+}
+h1{
+    color: rgb(33, 75, 110);
+}
+label{
+    color: rgb(13, 75, 78);
+    font-weight: bolder;
+}
+a{
+color: rgb(204, 125, 34);
+}
+a:hover{
+    color: aliceblue;
+}
+input{
+    color: rgb(135, 69, 8);
+    background-color: rgba(242, 244, 218, 0.814);
+    border-color: rgb(122, 53, 31);
+}
+textarea{
+    color: rgb(139, 71, 8);
+    background-color: rgba(242, 244, 218, 0.814);
+border-color: rgb(204, 125, 34);
+    border-style: double;
+    border-width: 4px;
+}
+select{
+    background-color:rgba(227, 185, 101, 0.837);
+    border-color: rgb(13, 75, 78);
+
+}
+.best label[type="checkbox"]:checked {
+  accent-color: rgb(255, 81, 0);
+}
